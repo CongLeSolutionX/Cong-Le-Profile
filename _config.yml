@@ -3,6 +3,8 @@
 title: "Cong Le Profile"
 email: cle155@csu.fullerton.edu
 url: 'www.CongLeSolutionX.tech'
+plugins:
+  - jekyll-sitemap
 baseurl: '/CongLeProfile' #change it according to your repository name
 description: >- # this means to ignore newlines until "baseurl:"
   iOS Developer with passion in photography and videography.
