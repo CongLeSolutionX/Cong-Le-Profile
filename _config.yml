@@ -1,33 +1,43 @@
 
 # Site Setting
-title: "Cong Le Profile"
-email: cle155@csu.fullerton.edu
-url: 'www.CongLeSolutionX.tech'
+title:          "Cong Le Profile"
+email:          cle155@csu.fullerton.edu
+url:            'www.CongLeSolutionX.tech'
 plugins:
   - jekyll-sitemap
-baseurl: '/CongLeProfile' #change it according to your repository name
-description: >- # this means to ignore newlines until "baseurl:"
+baseurl:        '/CongLeProfile' #change it according to your repository name
+description:    >- # this means to ignore newlines until "baseurl:"
   iOS Developer with passion in photography and videography.
   Bachelor Degree in Computer Science at California Statte University, Fullerton.
 
 
 # Profile information
-yourname: Cong Le  ## put your name
-title: 'COMPUTER SCIENTIST, iOS DEVELOPER, &amp; PHOTOGRAPHER'  ## your title
-location: Westminster , CA
+yourname:       Cong Le  ## put your name
+title:          'COMPUTER SCIENTIST, iOS DEVELOPER, &amp; PHOTOGRAPHER'  ## your title
+location:       Westminster , CA
 
 
 ## Social Profiles
-facebook: https://www.facebook.com/CongLeProgrammer             ## my facebook account url
-twitter: https://twitter.com/cong_le                            ## my twitter account url
-linkedin: https://www.linkedin.com/in/conglesolutionx          ## my linkedin account url
-github: https://github.com/CongLeSolutionX                      ## my GitHub account url
-gitlab: https://gitlab.com/CongLeSolutionX                      ## my GitLab account url
-instagram: https://www.instagram.com/conglesolutionx            ## my instagram account url
-youtube: https://www.youtube.com/user/longchike                 ## my youtube account url
+facebook:       https://www.facebook.com/CongLeProgrammer             ## my facebook account url
+twitter:        https://twitter.com/cong_le                            ## my twitter account url
+linkedin:       https://www.linkedin.com/in/conglesolutionx          ## my linkedin account url
+github:         https://github.com/CongLeSolutionX                      ## my GitHub account url
+gitlab:         https://gitlab.com/CongLeSolutionX                      ## my GitLab account url
+instagram:      https://www.instagram.com/conglesolutionx            ## my instagram account url
+youtube:        https://www.youtube.com/user/longchike                 ## my youtube account url
 
 # Build settings
-markdown: kramdown
+markdown:       kramdown
 
+# Compress HTML in Jekyll
+compress_html:
+  clippings: []
+  comments: ["<!-- ", " -->"]
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
 
 # Update all the sections by editing the files inside _includes folder.
