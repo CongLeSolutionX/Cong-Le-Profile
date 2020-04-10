@@ -29,15 +29,5 @@ youtube:        https://www.youtube.com/user/longchike                 ## my you
 # Build settings
 markdown:       kramdown
 
-# Compress HTML in Jekyll
-compress_html:
-  clippings: []
-  comments: []
-  endings: []
-  ignore:
-    envs: []
-  blanklines: false
-  profile: false
-  startings: []
 
 # Update all the sections by editing the files inside _includes folder.
