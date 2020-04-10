@@ -32,7 +32,7 @@ markdown:       kramdown
 # Compress HTML in Jekyll
 compress_html:
   clippings: []
-  comments: ["<!-- ", " -->"]
+  comments: []
   endings: []
   ignore:
     envs: []
